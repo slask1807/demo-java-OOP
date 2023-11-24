@@ -2,13 +2,13 @@ package by.itacademy.shlesin;
 
 public class Main {
     public static void main(String[] args) {
-        User1 user1=new User1();
+        User user1=new User();
         user1.setName("Ivan");
-        User1 user2=new User1();
+        User user2=new User();
         user2.setName("Lora");
-        User1 user3=new User1();
+        User user3=new User();
         user3.setName("Nadya");
-        User1[] users =new User1[3];
+        User[] users =new User[3];
         users[0] = user1;
         users[1] = user1;
         users[2] = user1;
